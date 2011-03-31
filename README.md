@@ -5,6 +5,7 @@ This project does the following:
 * Generates horizontal and vertical synchronization signals for a 640x480 VGA display
 * Uses the b/led wing to turn on the individual RGB channels either singly or in combination allowing for a total of 8 generated colors: red, green, blue, cyan, magenta, yellow, black, and white.
 * Generates pixel coordinates and display flag which can be used to generate text and tiles. Note that the current code-base does not implement these features, but those are next on the list.
+* Makes use of the DCM to generate a 50.35MHz clock used by the VGA synchronization component
 
 ## Links
 
