@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Kevin Lindsey\Projects\vga_generator\vga_test.ncd
+OUTFILE=C:\Users\Kevin Lindsey\Projects\vga_generator\vga_test.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4vq100
+WORKINGDIR=C:\Users\Kevin Lindsey\Projects\vga_generator
+LICENSE=WebPack
+USER_INFO=0_0_652
