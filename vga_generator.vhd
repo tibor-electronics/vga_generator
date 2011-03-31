@@ -28,17 +28,18 @@ architecture arch of vga_generator is
 		);
 	end component;
 	signal clk: std_logic;
-	
+
 	signal rgb_reg: std_logic_vector(2 downto 0);
 	signal video_on: std_logic;
 begin
-	inst_dcm_32_to_50p35: dcm_32_to_50p35 port map(
-		clkin_in => ext_clk,
-		clkfx_out => clk,
-		clkin_ibufg_out => open,
-		clk0_out => open
-	);
-	
+	inst_dcm_32_to_50p35: dcm_32_to_50p35
+		port map(
+			clkin_in => ext_clk,
+			clkfx_out => clk,
+			clkin_ibufg_out => open,
+			clk0_out => open
+		);
+
 	vga_sync_unit: entity work.vga_sync
 		port map(
 			clk => clk,
@@ -50,7 +51,7 @@ begin
 			pixel_x => open,
 			pixel_y => open
 		);
-	
+
 	process(clk, reset)
 	begin
 		if reset = '1' then
@@ -59,6 +60,6 @@ begin
 			rgb_reg <= sw;
 		end if;
 	end process;
-	
+
 	rgb <= rgb_reg when video_on = '1' else "000";
 end arch;
