@@ -21,17 +21,17 @@ end vga_sync;
 architecture arch of vga_sync is
 	-- VGA 640x480
 	
-	-- horizontal timings
+	-- horizontal timings, in pixels
 	constant h_display_area: integer := 640;
 	constant h_front_porch: integer := 16;
-	constant h_sync: integer := 96;  -- horizontal sync
-	constant h_back_porch: integer := 48;  -- horizontal back porch
+	constant h_sync: integer := 96;
+	constant h_back_porch: integer := 48;
 	
-	-- vertical timings
-	constant v_display_area: integer := 480; -- vertical display area
-	constant v_front_porch: integer := 10;  -- vertical front porch
-	constant v_sync: integer := 2;   -- vertical sync
-	constant v_back_porch: integer := 33;  -- vertical back porch
+	-- vertical timings, in lines
+	constant v_display_area: integer := 480;
+	constant v_front_porch: integer := 10;
+	constant v_sync: integer := 2;
+	constant v_back_porch: integer := 33;
 	
 	-- derived horizontal constants
 	constant hsync_start: integer := h_display_area + h_front_porch;
