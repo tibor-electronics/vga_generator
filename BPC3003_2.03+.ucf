@@ -7,6 +7,6 @@ NET "rgb<2>" LOC = "P10";
 NET "rgb<1>" LOC = "P16";
 NET "rgb<0>" LOC = "P17";
 
-NET "sw<2>" LOC = "P33";
-NET "sw<1>" LOC = "P40";
-NET "sw<0>" LOC = "P57";
+#NET "sw<2>" LOC = "P33";
+#NET "sw<1>" LOC = "P40";
+#NET "sw<0>" LOC = "P57";
