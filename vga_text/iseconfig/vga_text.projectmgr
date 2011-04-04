@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>font_test - Behavioral (C:/Users/Kevin Lindsey/Projects/vga_text/font_test.vhd)</SelectedItem>
+         <SelectedItem>font_test - Behavioral (C:/Users/Kevin Lindsey/Projects/vga_generator/vga_text/font_test.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000016a000000020000000000000000000000000000000064ffffffff0000008100000000000000020000016a0000000100000000000000000000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>font_test - Behavioral (C:/Users/Kevin Lindsey/Projects/vga_text/font_test.vhd)</CurrentItem>
+      <CurrentItem>font_test - Behavioral (C:/Users/Kevin Lindsey/Projects/vga_generator/vga_text/font_test.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
