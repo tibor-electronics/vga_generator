@@ -1,0 +1,17 @@
+# Output products list for <video_ram>
+_xmsgs\pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+blk_mem_gen_readme.txt
+video_ram.asy
+video_ram.gise
+video_ram.mif
+video_ram.ngc
+video_ram.sym
+video_ram.v
+video_ram.veo
+video_ram.vhd
+video_ram.vho
+video_ram.xco
+video_ram.xise
+video_ram_flist.txt
+video_ram_xmdf.tcl

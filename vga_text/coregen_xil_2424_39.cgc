@@ -2,13 +2,13 @@
 <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xilinx="http://www.xilinx.com" >
    <spirit:vendor>xilinx.com</spirit:vendor>
    <spirit:library>CoreGen</spirit:library>
-   <spirit:name>coregen_xil_2352_30</spirit:name>
+   <spirit:name>coregen_xil_2424_39</spirit:name>
    <spirit:version>1.0</spirit:version>
    <spirit:description></spirit:description>
    <spirit:vendorExtensions>
       <xilinx:instanceProperties>
        <xilinx:projectOptions>
-         <xilinx:projectName>coregen_xil_2352_30</xilinx:projectName>
+         <xilinx:projectName>coregen_xil_2424_39</xilinx:projectName>
          <xilinx:outputDirectory>./</xilinx:outputDirectory>
          <xilinx:workingDirectory>./tmp/</xilinx:workingDirectory>
          <xilinx:subWorkingDirectory>./tmp/_cg</xilinx:subWorkingDirectory>

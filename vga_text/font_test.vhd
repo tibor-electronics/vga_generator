@@ -20,7 +20,7 @@ architecture Behavioral of font_test is
 			clk0_out : out std_logic
 		);
 	end component;
-	signal clk: std_logic;
+	signal clock: std_logic;
 	
 	signal pixel_x, pixel_y: std_logic_vector(9 downto 0);
 	signal video_on, pixel_tick: std_logic;
@@ -30,7 +30,7 @@ begin
 	inst_dcm_32_to_50p35: dcm_32_to_50p35
 		port map(
 			clkin_in => ext_clk,
-			clkfx_out => clk,
+			clkfx_out => clock,
 			clkin_ibufg_out => open,
 			clk0_out => open
 		);
@@ -38,12 +38,12 @@ begin
 	-- VGA signals
 	vga_sync_unit: entity work.vga_sync
 		port map(
-			clk => clk,
+			clock => clock,
 			reset => reset,
 			hsync => hsync,
 			vsync => vsync,
 			video_on => video_on,
-			p_tick => pixel_tick,
+			pixel_tick => pixel_tick,
 			pixel_x => pixel_x,
 			pixel_y => pixel_y
 		);
@@ -51,7 +51,8 @@ begin
 	-- font ROM
 	font_gen_unit: entity work.font_generator
 		port map(
-			clk => clk,
+			clock => pixel_tick,
+			--clock => clock,
 			video_on => video_on,
 			pixel_x => pixel_x,
 			pixel_y => pixel_y,
@@ -59,9 +60,9 @@ begin
 		);
 
 	-- rgb buffer
-	process(clk)
+	process(clock)
 	begin
-		if clk'event and clk = '1' then
+		if clock'event and clock = '1' then
 			if pixel_tick = '1' then
 				rgb_reg <= rgb_next;
 			end if;

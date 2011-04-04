@@ -1,0 +1,18 @@
+# Crystal Clock - use 32MHz onboard oscillator
+NET "ext_clk" LOC = "P89" | IOSTANDARD = LVCMOS25 | PERIOD = 31.25ns;
+
+NET "vsync" LOC = "P5";
+NET "hsync" LOC = "P9";
+NET "rgb<2>" LOC = "P10";
+NET "rgb<1>" LOC = "P16";
+NET "rgb<0>" LOC = "P17";
+
+#NET "sw<2>" LOC = "P33";
+#NET "sw<1>" LOC = "P40";
+#NET "sw<0>" LOC = "P57";
+NET "btn<2>" LOC = "P33";
+NET "btn<1>" LOC = "P40";
+NET "btn<0>" LOC = "P57";
+
+NET "a" LOC = "P60";
+NET "b" LOC = "P62";
