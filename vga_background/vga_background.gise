@@ -22,7 +22,8 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="vga_background.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="ipcore_dir/dcm_32_to_50p35_readme.txt"/>
+    <file xil_pn:fileType="FILE_UCF" xil_pn:name="dcm_32_to_50p35_arwz.ucf" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="vga_generator_guide.ncd" xil_pn:origination="imported"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
