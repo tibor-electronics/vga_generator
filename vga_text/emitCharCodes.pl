@@ -39,26 +39,32 @@ print "memory_initialization_vector = ";
 
 foreach my $line (@lines) {
 	my @chars = split(//, $line);
+	my $length = $#chars;
 	
-	for (my $i = 0; $i <= $#chars; $i++) {
-		if ($first) {
-			$first = 1;
-		} else {
-			print ", ";
-		}
+	$length = ($length < 80) ? $length : 79;
 	
-		printf "%02x", ord($chars[$i]);
+	for (my $i = 0; $i <= $length; $i++) {
+		emitChar(ord($chars[$i]));
 	}
 
-	for (my $i = $#chars + 1; $i < 128; $i++) {
-		if ($first) {
-			$first = 1;
-		} else {
-			print ", ";
-		}
-	
-		print "00";
+	for (my $i = $length + 1; $i < 128; $i++) {
+		emitChar(0);
 	}
 }
 
 print ";\n";
+
+##
+#	emitChar
+##
+sub emitChar {
+	my $num = shift;
+
+	if ($first == 0) {
+		$first = 1;
+	} else {
+		print ", ";
+	}
+
+	printf "%02x", $num;
+}
