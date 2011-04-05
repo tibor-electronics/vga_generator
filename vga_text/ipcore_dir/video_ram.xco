@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 12.4
-# Date: Mon Apr 04 02:40:21 2011
+# Date: Tue Apr 05 20:15:51 2011
 #
 ##############################################################
 #
@@ -37,9 +37,9 @@ SELECT Block_Memory_Generator family Xilinx,_Inc. 4.3
 # BEGIN Parameters
 CSET additional_inputs_for_power_estimation=false
 CSET algorithm=Minimum_Area
-CSET assume_synchronous_clk=false
+CSET assume_synchronous_clk=true
 CSET byte_size=9
-CSET coe_file="C:\Users\Kevin Lindsey\Projects\vga_text\video_ram.coe"
+CSET coe_file="C:\Users\Kevin Lindsey\Projects\vga_generator\vga_text\video_ram.coe"
 CSET collision_warnings=ALL
 CSET component_name=video_ram
 CSET disable_collision_warnings=false
@@ -85,9 +85,9 @@ CSET use_regcea_pin=false
 CSET use_regceb_pin=false
 CSET use_rsta_pin=false
 CSET use_rstb_pin=false
-CSET write_depth_a=4096
+CSET write_depth_a=3840
 CSET write_width_a=7
 CSET write_width_b=7
 # END Parameters
 GENERATE
-# CRC: 5ea98533
+# CRC: 43e79ac0

@@ -48,11 +48,10 @@ begin
 			pixel_y => pixel_y
 		);
 
-	-- font ROM
+	-- font generator
 	font_gen_unit: entity work.font_generator
 		port map(
 			clock => pixel_tick,
-			--clock => clock,
 			video_on => video_on,
 			pixel_x => pixel_x,
 			pixel_y => pixel_y,

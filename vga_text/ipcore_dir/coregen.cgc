@@ -13,7 +13,7 @@
          <spirit:configurableElementValues>
             <spirit:configurableElementValue spirit:referenceId="parameter_use_rstb_pin">false</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="parameter_pipeline_stages">0</spirit:configurableElementValue>
-            <spirit:configurableElementValue spirit:referenceId="parameter_assume_synchronous_clk">false</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="parameter_assume_synchronous_clk">true</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="parameter_use_regcea_pin">false</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="parameter_load_init_file">true</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="parameter_softecc">false</spirit:configurableElementValue>
@@ -42,7 +42,7 @@
             <spirit:configurableElementValue spirit:referenceId="parameter_enable_a">Always_Enabled</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="parameter_enable_b">Always_Enabled</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="parameter_port_a_enable_rate">100</spirit:configurableElementValue>
-            <spirit:configurableElementValue spirit:referenceId="parameter_write_depth_a">4096</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="parameter_write_depth_a">3840</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="parameter_algorithm">Minimum_Area</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="parameter_output_reset_value_a">0</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="parameter_output_reset_value_b">0</spirit:configurableElementValue>
@@ -60,7 +60,7 @@
             <spirit:configurableElementValue spirit:referenceId="parameter_register_portb_output_of_memory_primitives">false</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="parameter_port_b_enable_rate">100</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="parameter_use_rsta_pin">false</spirit:configurableElementValue>
-            <spirit:configurableElementValue spirit:referenceId="parameter_coe_file">C:\Users\Kevin Lindsey\Projects\vga_text\video_ram.coe</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="parameter_coe_file">C:\Users\Kevin Lindsey\Projects\vga_generator\vga_text\video_ram.coe</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="parameter_fill_remaining_memory_locations">false</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="parameter_collision_warnings">ALL</spirit:configurableElementValue>
          </spirit:configurableElementValues>
@@ -101,8 +101,8 @@
                   <xilinx:file>
                      <xilinx:name>./video_ram.mif</xilinx:name>
                      <xilinx:userFileType>mif</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:39:34 GMT 2011</xilinx:timeStamp>
-                     <xilinx:checkSum>0x3AE24132</xilinx:checkSum>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:04 GMT 2011</xilinx:timeStamp>
+                     <xilinx:checkSum>0x03FBA4DF</xilinx:checkSum>
                   </xilinx:file>
                </xilinx:fileSet>
                <xilinx:fileSet>
@@ -110,8 +110,8 @@
                   <xilinx:file>
                      <xilinx:name>./video_ram.xco</xilinx:name>
                      <xilinx:userFileType>xco</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:39:35 GMT 2011</xilinx:timeStamp>
-                     <xilinx:checkSum>0xFF1B818A</xilinx:checkSum>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:04 GMT 2011</xilinx:timeStamp>
+                     <xilinx:checkSum>0xB96E0C04</xilinx:checkSum>
                   </xilinx:file>
                </xilinx:fileSet>
                <xilinx:fileSet>
@@ -119,62 +119,62 @@
                   <xilinx:file>
                      <xilinx:name>./blk_mem_gen_ds512.pdf</xilinx:name>
                      <xilinx:userFileType>pdf</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:06 GMT 2011</xilinx:timeStamp>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:34 GMT 2011</xilinx:timeStamp>
                      <xilinx:checkSum>0xFF542E99</xilinx:checkSum>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./blk_mem_gen_readme.txt</xilinx:name>
                      <xilinx:userFileType>txt</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:06 GMT 2011</xilinx:timeStamp>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:34 GMT 2011</xilinx:timeStamp>
                      <xilinx:checkSum>0xED96AB8B</xilinx:checkSum>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./video_ram.asy</xilinx:name>
                      <xilinx:userFileType>asy</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:39:43 GMT 2011</xilinx:timeStamp>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:12 GMT 2011</xilinx:timeStamp>
                      <xilinx:checkSum>0x8FEE23F9</xilinx:checkSum>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./video_ram.mif</xilinx:name>
                      <xilinx:userFileType>mif</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:39:43 GMT 2011</xilinx:timeStamp>
-                     <xilinx:checkSum>0x3AE24132</xilinx:checkSum>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:12 GMT 2011</xilinx:timeStamp>
+                     <xilinx:checkSum>0x03FBA4DF</xilinx:checkSum>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./video_ram.ngc</xilinx:name>
                      <xilinx:userFileType>ngc</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:15 GMT 2011</xilinx:timeStamp>
-                     <xilinx:checkSum>0x53F1CE52</xilinx:checkSum>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:45 GMT 2011</xilinx:timeStamp>
+                     <xilinx:checkSum>0x7AFBA902</xilinx:checkSum>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./video_ram.sym</xilinx:name>
                      <xilinx:userFileType>asy</xilinx:userFileType>
                      <xilinx:userFileType>unknown</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:07 GMT 2011</xilinx:timeStamp>
-                     <xilinx:checkSum>0x50F9B2BE</xilinx:checkSum>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:34 GMT 2011</xilinx:timeStamp>
+                     <xilinx:checkSum>0x765190A5</xilinx:checkSum>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./video_ram.v</xilinx:name>
                      <xilinx:userFileType>verilog</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:07 GMT 2011</xilinx:timeStamp>
-                     <xilinx:checkSum>0x6EEF0CB8</xilinx:checkSum>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:34 GMT 2011</xilinx:timeStamp>
+                     <xilinx:checkSum>0xEE03000C</xilinx:checkSum>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./video_ram.veo</xilinx:name>
                      <xilinx:userFileType>veo</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:07 GMT 2011</xilinx:timeStamp>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:34 GMT 2011</xilinx:timeStamp>
                      <xilinx:checkSum>0xD598FD74</xilinx:checkSum>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./video_ram.vhd</xilinx:name>
                      <xilinx:userFileType>vhdl</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:07 GMT 2011</xilinx:timeStamp>
-                     <xilinx:checkSum>0x123664E8</xilinx:checkSum>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:34 GMT 2011</xilinx:timeStamp>
+                     <xilinx:checkSum>0xC39489A3</xilinx:checkSum>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./video_ram.vho</xilinx:name>
                      <xilinx:userFileType>vho</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:07 GMT 2011</xilinx:timeStamp>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:34 GMT 2011</xilinx:timeStamp>
                      <xilinx:checkSum>0x8906A432</xilinx:checkSum>
                   </xilinx:file>
                </xilinx:fileSet>
@@ -186,8 +186,8 @@
                   <xilinx:file>
                      <xilinx:name>./video_ram.xco</xilinx:name>
                      <xilinx:userFileType>xco</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:21 GMT 2011</xilinx:timeStamp>
-                     <xilinx:checkSum>0xB345D528</xilinx:checkSum>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:51 GMT 2011</xilinx:timeStamp>
+                     <xilinx:checkSum>0x7C01A2B2</xilinx:checkSum>
                   </xilinx:file>
                </xilinx:fileSet>
                <xilinx:fileSet>
@@ -196,7 +196,7 @@
                      <xilinx:name>./video_ram_xmdf.tcl</xilinx:name>
                      <xilinx:userFileType>tclXmdf</xilinx:userFileType>
                      <xilinx:userFileType>tcl</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:21 GMT 2011</xilinx:timeStamp>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:51 GMT 2011</xilinx:timeStamp>
                      <xilinx:checkSum>0x1352DABB</xilinx:checkSum>
                   </xilinx:file>
                </xilinx:fileSet>
@@ -206,22 +206,22 @@
                      <xilinx:name>./_xmsgs/pn_parser.xmsgs</xilinx:name>
                      <xilinx:userFileType>ignore</xilinx:userFileType>
                      <xilinx:userFileType>unknown</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:24 GMT 2011</xilinx:timeStamp>
-                     <xilinx:checkSum>0xBE60B674</xilinx:checkSum>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:55 GMT 2011</xilinx:timeStamp>
+                     <xilinx:checkSum>0x8D54A9DF</xilinx:checkSum>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./video_ram.gise</xilinx:name>
                      <xilinx:userFileType>ignore</xilinx:userFileType>
                      <xilinx:userFileType>gise</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:24 GMT 2011</xilinx:timeStamp>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:55 GMT 2011</xilinx:timeStamp>
                      <xilinx:checkSum>0x79520848</xilinx:checkSum>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./video_ram.xise</xilinx:name>
                      <xilinx:userFileType>ignore</xilinx:userFileType>
                      <xilinx:userFileType>xise</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:24 GMT 2011</xilinx:timeStamp>
-                     <xilinx:checkSum>0x821ED7AA</xilinx:checkSum>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:55 GMT 2011</xilinx:timeStamp>
+                     <xilinx:checkSum>0xE6A13223</xilinx:checkSum>
                   </xilinx:file>
                </xilinx:fileSet>
                <xilinx:fileSet>
@@ -234,7 +234,7 @@
                      <xilinx:userFileType>ignore</xilinx:userFileType>
                      <xilinx:userFileType>txtFlist</xilinx:userFileType>
                      <xilinx:userFileType>txt</xilinx:userFileType>
-                     <xilinx:timeStamp>Mon Apr 04 02:40:24 GMT 2011</xilinx:timeStamp>
+                     <xilinx:timeStamp>Tue Apr 05 20:15:55 GMT 2011</xilinx:timeStamp>
                      <xilinx:checkSum>0xF63DA3D7</xilinx:checkSum>
                   </xilinx:file>
                </xilinx:fileSet>
@@ -250,7 +250,7 @@
          <spirit:description></spirit:description>
          <spirit:componentRef spirit:vendor="xilinx.com" spirit:library="ip" spirit:name="dcm_sp" spirit:version="12.1" />
          <spirit:configurableElementValues>
-            <spirit:configurableElementValue spirit:referenceId="parameter_xawfilename">C:\Users\Kevin Lindsey\Projects\vga_text\ipcore_dir\dcm_32_to_50p35.xaw</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="parameter_xawfilename">C:\Users\Kevin Lindsey\Projects\vga_generator\vga_text\ipcore_dir\dcm_32_to_50p35.xaw</spirit:configurableElementValue>
          </spirit:configurableElementValues>
          <spirit:vendorExtensions>
             <xilinx:instanceProperties xmlns:xilinx="http://www.xilinx.com">
