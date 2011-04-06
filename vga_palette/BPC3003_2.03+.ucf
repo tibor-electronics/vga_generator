@@ -1,0 +1,11 @@
+# Crystal Clock - use 32MHz onboard oscillator
+NET "ext_clock" LOC="P89" | IOSTANDARD=LVCMOS25 | PERIOD=31.25ns;
+
+NET "vsync" LOC="P5";
+NET "hsync" LOC="P9";
+NET "blue" LOC="P10";
+NET "green" LOC="P16";
+NET "red" LOC="P17";
+
+# debuggin
+NET "c" LOC="P91";
