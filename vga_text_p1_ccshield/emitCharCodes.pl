@@ -7,7 +7,7 @@ my @lines = (
 	"04 | https://github.com/thelonious/vga_generator                               |",
 	"05 |                                                                           |",
 	"06 | Running on the Papilio One 500K                                           |",
-	"07 | Using the VGA Wing                                                        |",
+	"07 | Using the VGA output of the Classic Computing shield                      |",
 	"08 | Both available at http://www.gadgetfactory.net                            |",
 	"09 =============================================================================",
     "10",
