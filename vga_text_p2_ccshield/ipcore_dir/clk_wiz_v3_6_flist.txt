@@ -1,5 +1,4 @@
 # Output products list for <clk_wiz_v3_6>
-_xmsgs/pn_parser.xmsgs
 clk_wiz_v3_6/clk_wiz_v3_6_readme.txt
 clk_wiz_v3_6/doc/clk_wiz_v3_6_readme.txt
 clk_wiz_v3_6/doc/clk_wiz_v3_6_vinfo.html

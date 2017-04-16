@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.7
-# Date: Wed Apr 12 20:01:00 2017
+# Date: Sun Apr 16 12:26:38 2017
 #
 ##############################################################
 #
@@ -22,16 +22,16 @@ SET asysymbol = false
 SET busformat = BusFormatAngleBracketNotRipped
 SET createndf = false
 SET designentry = VHDL
-SET device = xc3s500e
-SET devicefamily = spartan3e
+SET device = xc6slx9
+SET devicefamily = spartan6
 SET flowvendor = Other
 SET formalverification = false
 SET foundationsym = false
 SET implementationfiletype = Ngc
-SET package = vq100
+SET package = tqg144
 SET removerpms = false
 SET simulationfiles = Behavioral
-SET speedgrade = -4
+SET speedgrade = -2
 SET verilogsim = false
 SET vhdlsim = true
 # END Project Options
@@ -46,7 +46,7 @@ CSET axi_id_width=4
 CSET axi_slave_type=Memory_Slave
 CSET axi_type=AXI4_Full
 CSET byte_size=9
-CSET coe_file=../video_ram.coe
+CSET coe_file=/home/nico/nico/emu/shared/git/vga_generator/vga_text_p2_ccshield/video_ram.coe
 CSET collision_warnings=ALL
 CSET component_name=blk_mem_gen_v7_3
 CSET disable_collision_warnings=false
@@ -62,8 +62,8 @@ CSET interface_type=Native
 CSET load_init_file=true
 CSET mem_file=no_Mem_file_loaded
 CSET memory_type=Simple_Dual_Port_RAM
-CSET operating_mode_a=WRITE_FIRST
-CSET operating_mode_b=WRITE_FIRST
+CSET operating_mode_a=READ_FIRST
+CSET operating_mode_b=READ_FIRST
 CSET output_reset_value_a=0
 CSET output_reset_value_b=0
 CSET pipeline_stages=0
@@ -105,4 +105,4 @@ CSET write_width_b=7
 MISC pkg_timestamp=2012-11-19T16:22:25Z
 # END Extra information
 GENERATE
-# CRC: 7a4c5802
+# CRC: 446ac92e
