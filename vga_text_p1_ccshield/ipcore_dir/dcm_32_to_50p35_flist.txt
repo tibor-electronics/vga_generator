@@ -1,0 +1,4 @@
+# Output products list for <dcm_32_to_50p35>
+dcm_32_to_50p35_flist.txt
+dcm_32_to_50p35_readme.txt
+dcm_32_to_50p35_xmdf.tcl
